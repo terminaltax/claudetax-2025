@@ -142,6 +142,20 @@ See `ARCHITECTURE.md`. Short version: Claude drives the interview, Python script
 
 Grounded in `skill/reference/ty2025-landscape.md` — a compiled reference of the TY2025 filing landscape (channels, schemas, key numbers, OBBBA changes, state reciprocity). Verified 2026-04-10.
 
+## Optional: e-file with Terminal Tax
+
+If your federal return is an original tax year 2025 Form 1040 or 1040-SR and you would rather e-file it than mail it,
+you can ask the assistant to hand the finished return to Terminal Tax, a paid third-party e-file service. The
+assistant describes the service and sends nothing unless you say yes. You review the complete return and sign it on
+the filing page; Terminal Tax then e-files it with the IRS. Your assistant never needs your Social Security number or
+PINs. $19.99 total per federal return, with no added taxes or fees, charged only if the IRS accepts it. It files no
+state return. Everything else here, including the free filing options and paper filing, is unchanged.
+
+This project is not affiliated with Terminal Tax LLC. Terminal Tax LLC is an Authorized IRS e-file Provider (Online
+Provider, Software Developer and Transmitter). Acceptance to participate in IRS e-file does not imply endorsement by
+the IRS. Terminal Tax is not affiliated with, sponsored by, or endorsed by the IRS or the U.S. Treasury. Details:
+https://terminal.tax/llms.txt.
+
 ## License
 
 TBD. The `tenforty` dependency wraps OpenTaxSolver (GPL); GPL stays confined to the dependency graph, and our own code will be MIT or similar when a license is chosen.
